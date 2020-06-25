@@ -2,7 +2,7 @@ from game import Game
 
 
 def main():
-    game = Game(1000, 600)
+    game = Game(1000, 600, step=30)
     game.run()
 
 
